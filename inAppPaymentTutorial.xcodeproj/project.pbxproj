@@ -13,6 +13,8 @@
 		DA90917424E6A4DE00C45762 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA90917224E6A4DE00C45762 /* Main.storyboard */; };
 		DA90917624E6A4E000C45762 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA90917524E6A4E000C45762 /* Assets.xcassets */; };
 		DA90917924E6A4E000C45762 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA90917724E6A4E000C45762 /* LaunchScreen.storyboard */; };
+		DA90918124E6A8B500C45762 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA90918024E6A8B500C45762 /* TableViewCell.swift */; };
+		DA90918324E6AA7000C45762 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA90918224E6AA7000C45762 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		DA90917524E6A4E000C45762 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA90917824E6A4E000C45762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA90917A24E6A4E000C45762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA90918024E6A8B500C45762 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		DA90918224E6AA7000C45762 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				DA90916C24E6A4DE00C45762 /* AppDelegate.swift */,
 				DA90916E24E6A4DE00C45762 /* SceneDelegate.swift */,
 				DA90917024E6A4DE00C45762 /* ViewController.swift */,
+				DA90918024E6A8B500C45762 /* TableViewCell.swift */,
 				DA90917224E6A4DE00C45762 /* Main.storyboard */,
 				DA90917524E6A4E000C45762 /* Assets.xcassets */,
 				DA90917724E6A4E000C45762 /* LaunchScreen.storyboard */,
 				DA90917A24E6A4E000C45762 /* Info.plist */,
+				DA90918224E6AA7000C45762 /* Extension.swift */,
 			);
 			path = inAppPaymentTutorial;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA90918324E6AA7000C45762 /* Extension.swift in Sources */,
 				DA90917124E6A4DE00C45762 /* ViewController.swift in Sources */,
+				DA90918124E6A8B500C45762 /* TableViewCell.swift in Sources */,
 				DA90916D24E6A4DE00C45762 /* AppDelegate.swift in Sources */,
 				DA90916F24E6A4DE00C45762 /* SceneDelegate.swift in Sources */,
 			);
