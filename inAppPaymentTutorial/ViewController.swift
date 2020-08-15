@@ -28,6 +28,8 @@ class ViewController: UIViewController {
         tableView.anchor(top: view.topAnchor, left:view.leftAnchor,bottom: view.bottomAnchor,right: view.rightAnchor)
         tableView.register(UserCell.self, forCellReuseIdentifier: reuseIdetifier)
         tableView.rowHeight = 60
+        
+        
         tableView.separatorStyle = .none
         
         
